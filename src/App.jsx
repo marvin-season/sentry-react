@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <button onClick={() => {throw new Error("This is your first error!");}}>Break the world</button>;
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
